@@ -1,0 +1,23 @@
+.email {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    padding: 0px;
+    color: white;
+    font-size: 29px;
+}
+
+.phone {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    padding: 0px;
+    color: white;
+    font-size: 26px;
+}
