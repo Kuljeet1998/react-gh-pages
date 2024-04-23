@@ -79,6 +79,17 @@
   position: relative;
 }
 
-.font-bold{
+.font-bold {
   font-weight: bold;
+}
+
+.new-section {
+  padding-top: 2.5%;
+}
+
+.div-center {
+  text-align: center;
+  justify-content: center;
+  padding-left: 15%;
+  padding-right: 5%;
 }
