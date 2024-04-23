@@ -9,6 +9,7 @@ import CopyToClipboardButton  from './components/CopyToClipboardButton/CopyToCli
 import background from './assets/bg.avif'
 import Education from './components/education/education'
 import Work from './components/work/work';
+import Tech from './components/tech/tech';
 
 function App() {
   const [colorChange, setColorchange] = useState(false);
@@ -90,7 +91,9 @@ function App() {
       <div className='new-section div-center-2'>
         <Work />
       </div>
-      <div className='new-section div-center'></div>
+      <div className='new-section div-center dark-bg'>
+        <Tech />
+      </div>
     </div>
   );
 }

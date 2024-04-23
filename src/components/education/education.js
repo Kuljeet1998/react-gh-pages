@@ -15,7 +15,7 @@ function Education () {
             </tr>
             <tr>
                <td></td>
-               <td className='sub-point'>Relevant Coursework: Analysis of Algorithms, Machine Learning, Data Mining, Software Design and Architecture</td>
+               <td className='sub-point'><span className='font-important'>Relevant Coursework:</span> Analysis of Algorithms, Machine Learning, Data Mining, Software Design and Architecture</td>
             </tr>
             <tr>
                <td></td><td></td>
@@ -30,7 +30,7 @@ function Education () {
             </tr>
             <tr>
                <td></td>
-               <td className='sub-point'>Relevant Coursework: Algorithms, Databases, DevOps, Cloud Computing, Big Data Analytics, Operating Systems</td>
+               <td className='sub-point'><span className='font-important'>Relevant Coursework:</span> Algorithms, Databases, DevOps, Cloud Computing, Big Data Analytics, Operating Systems</td>
             </tr>
          </table>
       </div>

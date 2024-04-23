@@ -17,16 +17,16 @@ function Work () {
             </tr>
             <tr>
                <td></td>
-               <td className='arrange sub-point'>• Course IT461: Web Development in Cloud - Hands-on AWS, caching with ElastiCache, NoSQL, CI/CD</td>
+               <td className='arrange sub-point'><span className='font-important'>• Course IT461:</span> Web Development in Cloud - Hands-on AWS, caching with ElastiCache, NoSQL, CI/CD</td>
             </tr>
             <tr>
                <td></td>
-               <td className='arrange sub-point'>• Course IT431: Advanced Web Development - Teach & Grade on topics - ReactJs, SPAs, REST APIs, Cloud deployment</td>
+               <td className='arrange sub-point'><span className='font-important'>• Course IT431:</span> Advanced Web Development - Teach & Grade on topics - ReactJs, SPAs, REST APIs, Cloud deployment</td>
             </tr>
             
             <tr>
                <td></td>
-               <td className='arrange sub-point'>• Course IT293: Junior Transition - Make students job ready</td>
+               <td className='arrange sub-point'><span className='font-important'>• Course IT293:</span> Junior Transition - Make students job ready</td>
             </tr>
             <tr>
                <td></td>
