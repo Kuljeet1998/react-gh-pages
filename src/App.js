@@ -8,6 +8,7 @@ import { CiLinkedin } from "react-icons/ci";
 import CopyToClipboardButton  from './components/CopyToClipboardButton/CopyToClipboardButton'
 import background from './assets/bg.avif'
 import Education from './components/education/education'
+import Work from './components/work/work';
 
 function App() {
   const [colorChange, setColorchange] = useState(false);
@@ -86,9 +87,10 @@ function App() {
       <div className='new-section div-center'>
         <Education />
       </div>
-      <div className='new-section'>
-
+      <div className='new-section div-center-2'>
+        <Work />
       </div>
+      <div className='new-section div-center'></div>
     </div>
   );
 }

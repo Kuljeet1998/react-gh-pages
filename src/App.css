@@ -93,3 +93,9 @@
   padding-left: 15%;
   padding-right: 5%;
 }
+
+.div-center-2 {
+  text-align: center;
+  justify-content: center;
+  padding-left: 17%;
+}
