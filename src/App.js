@@ -7,6 +7,7 @@ import { FaGithub } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 import CopyToClipboardButton  from './components/CopyToClipboardButton/CopyToClipboardButton'
 import background from './assets/bg.avif'
+import Education from './components/education/education'
 
 function App() {
   const [colorChange, setColorchange] = useState(false);
@@ -82,41 +83,11 @@ function App() {
         </header>
       </div>
       <div onScroll={changeNavbarColor}></div>
-      <div>
-        <p>affafafa</p>
-        jkfaba
+      <div className='new-section div-center'>
+        <Education />
       </div>
-      <div>
-        <p>affafafa</p>
-        jkfaba
-      </div>
-      <div>
-        <p>affafafa</p>
-        jkfaba
-      </div>
-      <div>
-        <p>affafafa</p>
-        jkfaba
-      </div>
-      <div>
-        <p>affafafa</p>
-        jkfaba
-      </div>
-      <div>
-        <p>affafafa</p>
-        jkfaba
-      </div>
-      <div>
-        <p>affafafa</p>
-        jkfaba
-      </div>
-      <div>
-        <p>affafafa</p>
-        jkfaba
-      </div>
-      <div>
-        <p>affafafa</p>
-        jkfaba
+      <div className='new-section'>
+
       </div>
     </div>
   );
