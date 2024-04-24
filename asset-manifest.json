@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.b54d81c7.css",
+    "main.js": "/react-gh-pages/static/js/main.d2679fbf.js",
+    "static/js/453.1407b060.chunk.js": "/react-gh-pages/static/js/453.1407b060.chunk.js",
+    "static/media/videoplayback.mp4": "/react-gh-pages/static/media/videoplayback.cfdeadb39701751be491.mp4",
+    "static/media/sample_video.mp4": "/react-gh-pages/static/media/sample_video.b16b5b2ff579a8d2396c.mp4",
+    "static/media/Letters.zip": "/react-gh-pages/static/media/Letters.4dca56d999370fe1ac10.zip",
+    "static/media/Transcript.pdf": "/react-gh-pages/static/media/Transcript.c0af99f2862d5d42ad88.pdf",
+    "static/media/Resume.pdf": "/react-gh-pages/static/media/Resume.6f745e84e344dc10774d.pdf",
+    "static/media/Profile.jpeg": "/react-gh-pages/static/media/Profile.ec9370457ff630876113.jpeg",
+    "static/media/bg.avif": "/react-gh-pages/static/media/bg.363d9a4a54c0a258f19f.avif",
+    "index.html": "/react-gh-pages/index.html",
+    "main.b54d81c7.css.map": "/react-gh-pages/static/css/main.b54d81c7.css.map",
+    "main.d2679fbf.js.map": "/react-gh-pages/static/js/main.d2679fbf.js.map",
+    "453.1407b060.chunk.js.map": "/react-gh-pages/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b54d81c7.css",
+    "static/js/main.d2679fbf.js"
+  ]
+}
