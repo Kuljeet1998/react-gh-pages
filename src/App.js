@@ -10,6 +10,10 @@ import background from './assets/bg.avif'
 import Education from './components/education/education'
 import Work from './components/work/work';
 import Tech from './components/tech/tech';
+import Me from './components/me/me';
+import InTouch from './components/inTouch/inTouch';
+import Button from 'react-bootstrap/Button';
+import {FaArrowCircleUp} from 'react-icons/fa'; 
 
 function App() {
   const [colorChange, setColorchange] = useState(false);
@@ -23,17 +27,28 @@ function App() {
     };
     window.addEventListener("scroll", changeNavbarColor);
 
-    const [copySuccess, setCopySuccess] = useState('');
-    const textAreaRef = useRef(null);
-
-    function copyToClipboard(e) {
-      // document.execCommand('copy');
-      // This is just personal preference.
-      // I prefer to not show the whole text area selected.
-      e.target.focus();
-      setCopySuccess('Copied!');
-    };
+    const [visible, setVisible] = useState(false) 
   
+    const toggleVisible = () => { 
+      const scrolled = document.documentElement.scrollTop; 
+      if (scrolled > 300){ 
+        setVisible(true) 
+      }  
+      else if (scrolled <= 300){ 
+        setVisible(false) 
+      } 
+    }; 
+    
+    const scrollToTop = () =>{ 
+      window.scrollTo({ 
+        top: 0,  
+        behavior: 'smooth'
+        /* you can also use 'auto' behaviour 
+          in place of 'smooth' */
+      }); 
+    }; 
+    
+    window.addEventListener('scroll', toggleVisible); 
   
   return (
     <div>
@@ -91,9 +106,22 @@ function App() {
       <div className='new-section div-center-2'>
         <Work />
       </div>
-      <div className='new-section div-center dark-bg'>
+      <div className='new-section div-center-2 dark-bg'>
         <Tech />
       </div>
+      <div className='new-section div-center-2'>
+        <Me />
+      </div>
+      <div className='div-center-3 overlap'>
+        <Button className='top-button'> 
+          <FaArrowCircleUp onClick={()=>scrollToTop()}  
+          style={{display: visible ? 'inline' : 'none'}} /> 
+        </Button>
+      </div>
+      <div className='new-section div-center-3 dark-bg'>
+        <InTouch />
+      </div>
+      
     </div>
   );
 }
