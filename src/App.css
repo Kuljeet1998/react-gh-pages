@@ -15,7 +15,7 @@
   margin-bottom:0px;
   font-family: 'Droid Serif', serif;
   font-size:20px;
-  color: white;
+  color: yellow;
 }
 
 .navbar-solid {
@@ -24,6 +24,7 @@
   width: 100%;
   text-align: center;
   transition: background-color 0.87s ease;
+  color: blue;
 }
 
 .profile {
@@ -123,3 +124,25 @@
   color: rgb(178, 97, 254);
   cursor: pointer;
 }
+
+
+.animate-txt::before { 
+  content: "Kuljeet Singh Bhengura"; 
+  animation: animate infinite 9s;
+} 
+
+@keyframes animate { 
+
+  0% { 
+      content: "Full stack Developer"; 
+  } 
+
+  50% { 
+      content: "CS Grad Student"; 
+  } 
+
+  75% { 
+    content: "Kuljeet Singh Bhengura"; 
+} 
+
+} 
