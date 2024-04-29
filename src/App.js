@@ -1,7 +1,7 @@
 import './App.css';
 import profile from './assets/Profile.jpeg';
 import React, {useState, useRef} from "react";
-import IntroVideo from './assets/sample_video.mp4'
+import IntroVideo from './assets/intro.mp4'
 import BgVideo from './assets/videoplayback.mp4'
 import { FaGithub } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
@@ -57,7 +57,7 @@ function App() {
                         ? "navbar-solid"
                         : "navbar"
                 }>
-        <h1>Kuljeet Singh Bhengura</h1>
+        <h1>I'm <span className='animate-txt'></span></h1>
       </div>
       <div className="App" style={{ backgroundImage: `url(${background})`,
                                     backgroundRepeat: "no-repeat",

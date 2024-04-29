@@ -61,7 +61,7 @@ function Me () {
                <td className='pad-align-2 font-important'>Email:</td>
             </tr>
             <tr>
-               <td className='pad-align-2'>kbhengura@gmail</td>
+               <td className='pad-align-2'>kbhengura@gmail.com</td>
             </tr>
          </table><br></br><br></br>
       </div>
