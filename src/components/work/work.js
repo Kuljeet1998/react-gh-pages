@@ -9,6 +9,74 @@ function Work () {
          <table>
             <tr>
                <th className='section'>WORK</th>
+               <th className='arrange'>Open Learning Exchange</th>
+            </tr>
+            <tr>
+               <td></td>
+               <td className='pursue arrange'>Mobile Software Engineer Intern  • <span className='graduation'>August 2024 – Present </span></td>
+            </tr>
+            <tr>
+               <td></td>
+               <td className='arrange sub-point'>• Developing and Maintaining High-Quality <span className='font-important'>Android Application</span></td>
+            </tr>
+            <tr>
+               <td></td>
+               <td className='arrange sub-point'>• Coolaborating with Cross-Functional Teams</td>
+            </tr>
+            
+            <tr>
+               <td></td>
+               <td className='arrange sub-point'>• Troubleshooting and Debugging</td>
+            </tr>
+            <tr>
+               <td></td>
+               <td className='arrange sub-point'>• Writing clean efficient and well-documented code</td>
+            </tr>
+            <tr>
+               <td></td>
+               <td className='arrange'><a href='https://www.ole.org/' target="_blank">View website</a></td>
+            </tr>
+            
+            <tr>
+               <td></td><td></td>
+            </tr><br></br><br></br>
+
+
+
+            <tr>
+               <th className='section'></th>
+               <th className='arrange'>Headstarter</th>
+            </tr>
+            <tr>
+               <td></td>
+               <td className='pursue arrange'>Software Engineer Fellow  • <span className='graduation'>July 2024 – Sept 2024 </span></td>
+            </tr>
+            <tr>
+               <td></td>
+               <td className='arrange sub-point'>• Build 5 AI projects </td>
+            </tr>
+            <tr>
+               <td></td>
+               <td className='arrange sub-point'>• Weekly Hackathons</td>
+            </tr>
+            
+            <tr>
+               <td></td>
+               <td className='arrange sub-point'>• DSA coding and interviews</td>
+            </tr>
+            <tr>
+               <td></td>
+               <td className='arrange'><a href='https://app.theheadstarter.com/' target="_blank">View website</a></td>
+            </tr>
+            
+            <tr>
+               <td></td><td></td>
+            </tr><br></br><br></br>
+
+
+
+            <tr>
+               <th className='section'></th>
                <th className='arrange'>George Mason University</th>
             </tr>
             <tr>
